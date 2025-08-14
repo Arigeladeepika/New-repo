@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #f9d8d6, #fcd2be);
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      text-align: center;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #f27e7e;
+      font-size: 24px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff4a4a;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>✨ Welcome! ✨</h1>
+    <p>This is a simple and unique HTML design.</p>
+    <button onclick="showSurprise()">Click for a Surprise</button>
+  </div>
+
+  <script>
+    function showSurprise() {
+      alert("🎉 Surprise! You've successfully deployed your project! 🎉");
+    }
+  </script>
+</body>
+</html>
